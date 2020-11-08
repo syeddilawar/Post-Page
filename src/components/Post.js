@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PDF from "./PDF";
+import Save from "./Save";
 class Post extends Component {
   state = {
     title: "",
@@ -93,7 +93,7 @@ class Post extends Component {
             </div>
           </div>
         ) : (
-          <PDF
+          <Save
             title={this.state.title}
             content={this.state.content}
             image={this.state.image}
