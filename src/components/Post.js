@@ -40,7 +40,7 @@ class Post extends Component {
                   <div className="well well-sm">
                     <form className="form-horizontal" method="post">
                       <fieldset>
-                        <legend className="text-center header">
+                        <legend className="text-center header" id="adp">
                           Add new post
                         </legend>
                         <div className="form-group">
