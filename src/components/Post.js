@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import Save from "./Save";
+import ButtonAppBar from "./Navbar";
+import { Button } from "@material-ui/core";
+
 class Post extends Component {
   state = {
     title: "",
@@ -28,6 +31,7 @@ class Post extends Component {
   render() {
     return (
       <>
+        <ButtonAppBar />
         {!this.state.postSubmitted ? (
           <div className="container">
             <div className="jumbotron mt-3">
